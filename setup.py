@@ -12,5 +12,4 @@ setup(
     , install_requires = [
         'pillow'
     ]
-    , include_package_data=True
 )
