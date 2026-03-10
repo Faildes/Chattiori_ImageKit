@@ -5,10 +5,7 @@ setup(
     , version          = '1.0'
     , license          = 'Apache License'
     , author           = "Chattiori"
-    , packages         = find_packages('src')
-    , package_dir      = {'': 'src'}
-    , url              = 'https://github.com/Faildes/Chattiori_ImageKit'
-    , keywords         = 'diffusers stable-diffusion pil image'
+    , packages         = find_packages()
     , install_requires = [
         'pillow'
     ]
